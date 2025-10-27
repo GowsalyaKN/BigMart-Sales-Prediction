@@ -41,12 +41,17 @@ python src/main.py
 📁 Project Structure
 BigMart-Sales-Prediction/
 ├── data/
-│   └── Train.csv                 # Dataset
+│   └── Train.csv
+├── results/
+│   ├── best_model.pkl
+│   ├── feature_distributions.png
+│   ├── model_performance.csv
+│   └── model_performance.png
 ├── src/
-│   └── main.py                   # Main analysis script
-├── results/                      # Generated results (auto-created)
+│   └── main.py
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+└── LICENSE
 
 🧩 Data Description
 
